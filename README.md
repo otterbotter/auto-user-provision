@@ -23,6 +23,10 @@ AUP_ROTATION_EXPIRY_HOURS = 0  # ^ but hours
 AUP_ROTATION_EXPIRY_MINUTES = 0  # ^ but minutes
 ```
 
+And then run your migrations:
+
+```/.manage.py migrate auto_user_provision```
+
 ## How to Use
 
 ### Models
